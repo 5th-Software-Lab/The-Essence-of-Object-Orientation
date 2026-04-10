@@ -47,6 +47,6 @@ public class Alice {
         alice.drinkPotion();   // 행동 → 상태 변화
         alice.enterDoor(50);   // 통과 가능 - 상태가 바뀌었으므로 결과도 다르다
         alice.eatCake();       // 행동 → 상태 변화
-        alice.enterDoor(50);   // 다시 통과 불가
+        alice.enterDoor(50);   // 다시 통과 불가 
     }
 }
