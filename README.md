@@ -9,11 +9,11 @@
 ```text
 .
 ├── Chapter-01/
-│   ├── MemberA/
+│   ├── Max/
 │   │   ├── Alice.swift
 │   │   ├── PlayingCard.swift
 │   │   └── README.md                # 개념 정리 및 코드 설명
-│   └── MemberB/
+│   └── Dustin/
 │       ├── Alice.java
 │       └── README.md
 ├── Chapter-02/
