@@ -49,12 +49,21 @@ main
 | `refactor` | 코드 개선 |
 | `comment` | 주석 추가 |
 
+**Format**: `태그(ch{n}): 내용`
+
+```
+feat(ch01): Alice 객체 상태와 행동 구현
+feat(ch02): PlayingCard 식별자 개념 구현
+docs(ch01): Alice 개념 정리 README 작성
+comment(ch01): drinkPotion 동작 주석 추가
+chore: Chapter-03 폴더 및 README 초기화
+```
+
+main에 직접 커밋하는 공용 작업의 경우 커밋 메세지 뒤에 이름을 붙여주세요
 **Format**: `태그(ch{n}): 내용 - 이름`
 
 ```
-feat(ch01): Add cooperation snippet - Gildong
-docs(ch01): Add README summary - Gildong
-refactor(ch01): Simplify role assignment - Gildong
+chore: Chapter-03 폴더 및 README 초기화 - Max
 ```
 
 ---
@@ -65,10 +74,10 @@ refactor(ch01): Simplify role assignment - Gildong
 
 ```bash
 # Swift
-swift 01_cooperation.swift
+swift Alice.swift
 
 # Java
-javac 01_cooperation.java && java Main
+javac Alice.java && java Alice
 ```
 
 > 각 멤버 폴더의 `README.md`에 코드 실행 방법과 개념 요약을 간단히 적어두세요.  
