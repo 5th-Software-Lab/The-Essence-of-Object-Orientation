@@ -80,13 +80,29 @@ chore: Chapter-03 폴더 및 README 초기화 - Max
 
 사용 언어는 **Swift** 또는 **Java**만 허용합니다.
 
-```bash
-# Swift
-swift Alice.swift
+VSCODE를 사용하면 두 언어 모두 실행가능합니다. 아래 설명은 VSCODE 환경에서의 실행 팁을 정리해 둔 내용입니다.
 
-# Java
+## ▶ Run
+
+### Java
+**Extension Pack for Java** (Microsoft) 익스텐션을 설치하세요.  
+설치 후 파일을 열면 `main` 메서드 위에 **Run** 버튼이 생깁니다.
+
+또는 터미널에서 직접 실행할 수 있습니다.
+```bash
 javac Alice.java && java Alice
 ```
+
+### Swift
+**Mac**: CodeRunner 익스텐션을 설치하면 ▷ Run 버튼으로 실행할 수 있습니다.  
+Xcode가 설치되어 있다면 Swift는 이미 사용 가능합니다.
+
+```bash
+swift Alice.swift
+```
+
+**Windows**: VSCode에서 Swift 실행 환경 구성이 복잡하므로 온라인 실행기를 사용하세요.  
+👉 [SwiftFiddle](https://swiftfiddle.com)
 
 > 각 멤버 폴더의 `README.md`에 코드 실행 방법과 개념 요약을 간단히 적어두세요.  
 > 다른 팀원이 바로 실행하고 이해할 수 있어야 합니다.
