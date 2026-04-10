@@ -30,8 +30,8 @@
 
 ```
 main
-├── feat/ch01-memberA
-└── feat/ch01-memberB
+├── feat/ch01-Max
+└── feat/ch01-Dustin
 ```
 
 - 챕터가 시작될 때 브랜치를 새로 딥니다.
