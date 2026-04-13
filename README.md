@@ -4,6 +4,23 @@
 
 ---
 
+## 📅 Schedule
+
+<table>
+  <tr>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/55b9700a-b083-47fd-ba33-e4429de1e9f2" width="400" />
+      <br><b>4월</b>
+    </td>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/b72278d2-1acb-444d-b70c-3dd018a518ee" width="400" />
+      <br><b>5월</b>
+    </td>
+  </tr>
+</table>
+
+---
+
 ## 📂 Directory Structure
 
 ```text
