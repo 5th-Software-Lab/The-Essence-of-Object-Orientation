@@ -1,0 +1,23 @@
+name: "📅 주차별 학습 가이드"
+description: "매주 공부할 분량과 과제를 공지합니다."
+title: "[n주차] 학습 주제: "
+labels: ["announcement"]
+body:
+  - type: markdown
+    attributes:
+      value: "이번 주 스터디 내용을 아래 양식에 맞춰 작성해주세요."
+  - type: input
+    id: range
+    attributes:
+      label: "📖 학습 범위"
+      placeholder: "예: p.100 ~ p.150"
+    validations:
+      required: true
+  - type: checkboxes
+    id: keywords
+    attributes:
+      label: "🔑 핵심 키워드"
+      options:
+        - label: "캡슐화"
+        - label: "다형성"
+        - label: "상속 vs 합성"
