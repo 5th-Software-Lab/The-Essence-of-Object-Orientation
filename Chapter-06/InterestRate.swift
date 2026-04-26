@@ -9,7 +9,7 @@ import Foundation
 
 class InterestRate {
     
-    let rate: Double
+    private let rate: Double
     
     init(rate: Double) {
         self.rate = rate

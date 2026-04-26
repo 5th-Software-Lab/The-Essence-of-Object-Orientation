@@ -9,8 +9,8 @@ import Foundation
 
 class Interest: Equatable {
     
-    let amount: Double
-    let paymentDate: Date
+    private let amount: Double
+    private let paymentDate: Date
     
     static func == (lhs: Interest, rhs: Interest) -> Bool {
         lhs.amount == rhs.amount && lhs.paymentDate == rhs.paymentDate

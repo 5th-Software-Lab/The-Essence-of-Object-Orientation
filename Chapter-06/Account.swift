@@ -9,8 +9,8 @@ import Foundation
 
 class Account {
     
-    let interestRate: InterestRate
-    let amount: Int
+    private let interestRate: InterestRate
+    private var amount: Int
     
     init(interestRate: InterestRate, amount: Int) {
         self.interestRate = interestRate

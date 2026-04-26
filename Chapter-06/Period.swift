@@ -9,8 +9,8 @@ import Foundation
 
 class Period {
     
-    let startDate: Date
-    let endDate: Date
+    private let startDate: Date
+    private let endDate: Date
     
     var yearFraction: Double {
         Double(days) / 365.0

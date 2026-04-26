@@ -9,7 +9,7 @@ import Foundation
 
 class TimeDeposit {
     
-    let period: Period
+    private let period: Period
     private let account: Account
     
     init(period: Period, account: Account) {
